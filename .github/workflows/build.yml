@@ -49,7 +49,7 @@ jobs:
           echo "[![Build](https://img.shields.io/badge/build-${{ env.BUILD_STATUS }}-${{ env.BUILD_COLOR }})](https://github.com/${{ github.repository }}/actions)" > badges.md
           
           if [ -n "${{ env.COVERAGE }}" ]; then
-            echo "[![Coverage](https://img.shields.io/badge/coverage-${{ env.COVERAGE }}%25-${{ env.COVERAGE > 80 && 'brightgreen' || 'orange' }})](https://github.com/${{ github.repository }}/actions)" >> badges.md
+            echo "[![Coverage](https://img.shields.io/badge/coverage-${{ env.COVERAGE }}%25-${{ env.COVERAGE > 85 && 'brightgreen' || 'orange' }})](https://github.com/${{ github.repository }}/actions)" >> badges.md
           fi
           
           if [ -n "${{ env.CHECKSTYLE_ERRORS }}" ]; then
