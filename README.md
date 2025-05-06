@@ -11,4 +11,4 @@
 
 [![Checkstyle](https://github.com/genos36/mtss-roman-number/actions/workflows/checkstyle.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
 
-[![Checkstyle](https://github.com/genos36/mtss-roman-number/actions/workflows/coverage.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
+[![Coverage](https://github.com/genos36/mtss-roman-number/actions/workflows/coverage.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
