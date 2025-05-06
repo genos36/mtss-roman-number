@@ -6,8 +6,8 @@
 ## Seconda prova pratica del corso metodi e tecnologie per lo sviluppo software
 
 
-<!-- BADGES_START -->
+
 [![Build Status](https://github.com/genos36/mtss-roman-number/actions/workflows/build.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
-[![Checkstyle](https://genos36.github.io/mtss-roman-number/badges/checkstyle.svg)](https://github.com/genos36/mtss-roman-number/actions)
-[![Coverage](https://genos36.github.io/mtss-roman-number/badges/checkstyle.svg)](https://github.com/genos36/mtss-roman-number/actions)
+<!-- BADGES_START -->
+
 <!-- BADGES_END -->
