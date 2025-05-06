@@ -1,4 +1,4 @@
-name: Checkstyle
+name: Coverage_check
 on: [push, pull_request]
 jobs:
   checkstyle:
