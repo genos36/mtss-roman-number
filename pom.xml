@@ -88,7 +88,7 @@
   <artifactId>maven-checkstyle-plugin</artifactId>
   <version>3.3.0</version>
   <configuration>
-    <configLocation>${project.basedir}/src/main/resources/checkstyle.xml</configLocation>
+    <configLocation>checkstyle.xml</configLocation>
     <includeTestSourceDirectory>true</includeTestSourceDirectory>
     <failOnViolation>true</failOnViolation>
   </configuration>
