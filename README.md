@@ -8,6 +8,7 @@
 
 
 [![Build Status](https://github.com/genos36/mtss-roman-number/actions/workflows/build.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
-<!-- BADGES_START -->
 
-<!-- BADGES_END -->
+[![Checkstyle](https://github.com/genos36/mtss-roman-number/actions/workflows/checkstyle.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
+
+[![Checkstyle](https://github.com/genos36/mtss-roman-number/actions/workflows/coverage.yml/badge.svg)](https://github.com/genos36/mtss-roman-number/actions)
