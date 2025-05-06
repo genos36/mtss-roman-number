@@ -62,3 +62,10 @@ jobs:
           END="<!-- BADGES_END -->"
           BADGES=$(cat badges.md | sed 's/\//\\\//g') # Escape slashes per sed
           sed -i "/$START/,/$END/c\\$START\n$BADGES\n$END" README.md
+      - name: Commit README aggiornato
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Aggiorna badge nel README"
+          git push
