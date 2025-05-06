@@ -55,3 +55,10 @@ jobs:
           if [ -n "${{ env.CHECKSTYLE_ERRORS }}" ]; then
             echo "[![Checkstyle](https://img.shields.io/badge/checkstyle-${{ env.CHECKSTYLE_ERRORS }}_errors-${{ env.CHECKSTYLE_ERRORS == 0 && 'green' || 'red' }})](https://github.com/${{ github.repository }}/actions)" >> badges.md
           fi
+
+      - name: Inserisci i badge in README.md
+        run: |
+          START="<!-- BADGES_START -->"
+          END="<!-- BADGES_END -->"
+          BADGES=$(cat badges.md | sed 's/\//\\\//g') # Escape slashes per sed
+          sed -i "/$START/,/$END/c\\$START\n$BADGES\n$END" README.md
